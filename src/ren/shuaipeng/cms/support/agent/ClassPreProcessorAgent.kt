@@ -11,6 +11,10 @@ class ClassPreProcessorAgent : ClassFileTransformer {
         protectionDomain: ProtectionDomain?,
         classfileBuffer: ByteArray?
     ): ByteArray? {
+        if (className!!.startsWith("ren/shuaipeng/cms")) {
+            println("className = ${className}")
+            // TODO 监控URL(Handler)的调用情况
+        }
         return null
     }
 }
