@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: CmsSupport Agent
+Specification-Version: 1.0.0
+Specification-Vendor: CmsSource
+Implementation-Title: ren.shuaipeng.cms.support
+Implementation-Version: 1.0.0
+Implementation-Vendor: CmsSource
+Premain-Class: ren.shuaipeng.cms.support.agent.CmsSupportAgent
+Agent-Class: ren.shuaipeng.cms.support.agent.CmsSupportAgent
+Can-Redefine-Classes: true
